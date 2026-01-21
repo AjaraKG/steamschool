@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #083858f1;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: #000000;
+    font-size: 36px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #fc1a1a;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 6px;
+}
