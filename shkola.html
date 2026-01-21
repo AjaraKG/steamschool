@@ -3,13 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Steam School</title>
-    <link rel="stylesheet" href="shkola.css">
-    <script src="shkola.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Школа Steam — это школа с современным способом образования.</h1>
-    <p>У нас углублённый английский, современные учителя, бесплатные кружки и правильное трёхразовое питание!</p>
-    <img src="img/photo.png" alt="">
-    <a href="shkolainfo.html" class="button">Подробнее о школе</a>
+
+<header class="hero">
+    <nav class="nav">
+        <h2>Steam School</h2>
+        <button id="themeBtn">🌙</button>
+    </nav>
+
+    <div class="hero-content">
+        <h1>Школа будущего</h1>
+        <p>Современное образование для умных и смелых</p>
+        <button class="btn" id="openModal">Записаться</button>
+    </div>
+</header>
+
+<section class="section reveal">
+    <h2>О школе</h2>
+    <p>
+        Steam School — это технологии, английский язык, сильные учителя и комфортная среда.
+    </p>
+</section>
+
+<section class="section cards reveal">
+    <h2>Почему мы?</h2>
+    <div class="card-box">
+        <div class="card">🚀 Проектное обучение</div>
+        <div class="card">🌍 Английский каждый день</div>
+        <div class="card">💻 IT и робототехника</div>
+        <div class="card">🎨 Кружки бесплатно</div>
+    </div>
+</section>
+
+<section class="section reveal">
+    <h2>Контакты</h2>
+    <p>📞 +996 700 123 456</p>
+    <p>📍 Бишкек</p>
+</section>
+
+<footer>
+    <p>© 2026 Steam School</p>
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <h2>Запись в школу</h2>
+        <input type="text" placeholder="Имя">
+        <input type="tel" placeholder="Телефон">
+        <button class="btn" id="sendBtn">Отправить</button>
+        <p id="msg"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
